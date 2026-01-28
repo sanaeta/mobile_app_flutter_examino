@@ -1,0 +1,55 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+# --- Laravel Specific ---
+/mobile_app_laravel-examino_laravel/vendor/
+/mobile_app_laravel-examino_laravel/.env
+/mobile_app_laravel-examino_laravel/node_modules/
+/mobile_app_laravel-examino_laravel/public/storage
+/mobile_app_laravel-examino_laravel/storage/*.key
+/mobile_app_laravel-examino_laravel/storage/framework/cache/data/*
+/mobile_app_laravel-examino_laravel/storage/framework/sessions/*
+/mobile_app_laravel-examino_laravel/storage/framework/views/*
+/mobile_app_laravel-examino_laravel/storage/logs/*
