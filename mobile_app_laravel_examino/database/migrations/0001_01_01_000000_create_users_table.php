@@ -14,22 +14,13 @@ return new class extends Migration
     Schema::create('users', function (Blueprint $table) {
 
         $table->id();
-        // Informations personnelles
         $table->string('nom');
         $table->string('prenom');
-
-        // Authentification
         $table->string('email')->unique();
-        $table->string('password'); // MDP hashé
-
-        // Informations académiques
+        $table->string('password'); 
         $table->unsignedBigInteger('filiere_id');
-        $table->string('cne')->unique();
-        $table->date('date_ns');
-
         // Session
         $table->rememberToken();
-
         // Dates Laravel
         $table->timestamps();
 
